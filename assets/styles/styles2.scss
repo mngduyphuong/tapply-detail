@@ -1,0 +1,198 @@
+.section01 {
+  .paymentLogo {
+    
+    p{
+      display: none;
+      margin-top: 10px;
+      font-size: 12px;
+    }
+    @media (min-width: 768px) {
+      p{
+        display: block;
+      }
+    }
+    padding: 2rem 0rem;
+    img {
+      width: 40%;
+      @media (min-width: 768px) {
+        width: auto;
+        
+      }
+    }
+  }
+  .paymentContent {
+    .paymentMobile {
+      .paymentMobile01{
+        padding: 1rem 0;  
+      border-top: 1px solid #dee2e6;
+      border-bottom: 1px solid #dee2e6;
+      i{
+        font-size: 1.2rem;
+        margin-right: 8px;
+      }
+      }
+      .paymentItems{
+        display: flex;
+        padding: 1rem 0;
+        
+        .paymentItems01{
+          width: 40%;
+          padding:  10px;
+          border: 1px solid #dee2e6;
+          border-radius: 3px;
+          margin:auto;
+        }
+        .paymentItems02{
+          padding: 0 1rem;
+          font-size: 14px;
+          p{
+            margin: 0;
+          }
+          .paymentItems021{
+            font-size: 12px;
+            color: gray;
+          }
+          
+        }
+        .paymentItems03{
+          margin: auto;
+        }
+      }
+      .paymentItems04{
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 0;
+        border-top: 1px solid #dee2e6;
+        border-bottom: 1px solid #dee2e6;
+        .paymentItems041{
+
+        }
+        .paymentItems042{
+          span{
+            color: gray;
+            margin-right: 5px;
+          }
+        }
+      }
+      .collapse {
+        &:not(.show) {
+          display: none;
+        }
+      }
+      .collapsing {
+        height: 0;
+        overflow: hidden;
+        
+
+        &.collapse-horizontal {
+          width: 0;
+          height: auto;
+         
+        }
+      }
+      @media (min-width: 768px) {
+        display: none;
+      }
+      .paymentPrice {
+        float: right;
+        font-size: 1.4rem;
+      }
+      a{
+        text-decoration: none;
+      }
+    }
+    .paymentForm{
+      .paymentBtn{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 2rem;
+        .paymentBtn01{
+          a{
+            text-decoration: none;
+          }
+          margin: 10px;
+          
+        }
+        input{
+          padding: 10px;
+          border:none;
+          border-radius: 5px;
+          background-color: #d59f80;
+          &:hover{
+            background-color: #d59f8065;
+            transition: 1s;
+          }
+        }
+        
+      }
+      select {
+        background-image:
+          linear-gradient(45deg, transparent 50%, gray 60%),
+          linear-gradient(135deg, gray 40%, transparent 50%) !important;
+        background-position:
+          calc(100% - 15px) 14px,
+          calc(100% - 5px) 14px;
+        background-size:
+          10px 10px,
+          10px 10px;
+        background-repeat: no-repeat;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+      }
+      @media (min-width:768px) {
+        padding-right:  3rem;
+      }
+    }
+  }
+  .paymentPC {
+    display: none;
+    padding: 6rem 2rem;
+    border-left: 2px solid #dee2e6;
+    @media (min-width: 768px) {
+      display: unset;
+    }
+    .paymentItems{
+      display: flex;
+      padding-bottom: 1rem;
+      
+      .paymentItems01{
+        width: 20%;
+        padding:  5px;
+        border: 1px solid #dee2e6;
+        border-radius: 5px;
+        margin:auto;
+      }
+      .paymentItems02{
+        padding: 0 1.5rem;
+        font-size: 14px;
+        p{
+          margin: 0;
+        }
+        .paymentItems021{
+          font-size: 12px;
+          color: gray;
+        }
+        
+      }
+      .paymentItems03{
+        margin: auto;
+      }
+    }
+    .paymentItems04{
+      display: flex;
+      justify-content: space-between;
+      padding: 1rem 0;
+      border-top: 1px solid #dee2e6;
+      border-bottom: 1px solid #dee2e6;
+      .paymentItems041{
+
+      }
+      .paymentItems042{
+        span{
+          color: gray;
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+}

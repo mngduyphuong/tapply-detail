@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tapply - Thanh toán đơn hàng</title>
+    <link href="assets/styles/styles2.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+<body>
+    
+    <div class="section01">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 ">
+                    <div class="paymentLogo">
+                        <img class="img-fluid" src="assets/img/logo_header2.png">
+                        <p><a href="#">Giỏ hàng</a> > Thông tin giao hàng</p>
+                    </div>
+                    <div class=" paymentContent">
+                        <div class=" paymentMobile">
+                            <div class="paymentMobile01">
+                                <a  data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" style="">
+                                    <i class="bi bi-cart2"></i>   Thông tin đơn hàng 
+                                  </a>
+                                  <!-- ==============Price============= -->
+                              <div class="paymentPrice">
+                                  19.000d
+                              </div>
+                            </div>
+                            <div class="collapse " id="collapseExample">
+                                <div class="paymentItems">
+                                    <!-- ===================Items=============== -->
+                                    <div class="paymentItems01">
+                                        <img src="assets/img/cardFront02.png" class="img-fluid">
+                                    </div>
+                                    <div class="paymentItems02">
+                                        <p>Thẻ Cá Nhân Thông Minh Tapply - BLACK VER.</p>
+                                        <p class="paymentItems021">ONTHECARD 2.0 - BLACK VER. </p>
+                                    </div>
+                                    <div class="paymentItems03">
+                                        179,000₫
+                                    </div>
+                                </div>
+                                <div class="paymentItems">
+                                    <!-- ===================Items=============== -->
+                                    <div class="paymentItems01">
+                                        <img src="assets/img/cardFront02.png" class="img-fluid">
+                                    </div>
+                                    <div class="paymentItems02">
+                                        <p>Thẻ Cá Nhân Thông Minh Tapply - BLACK VER.</p>
+                                        <p class="paymentItems021">ONTHECARD 2.0 - BLACK VER. </p>
+                                    </div>
+                                    <div class="paymentItems03">
+                                        179,000₫
+                                    </div>
+                                </div>
+                                <div class="paymentItems04">
+                                    <div class="paymentItems041">
+                                        Tổng cộng
+                                    </div>
+                                    <div class="paymentItems042">
+                                        <!-- =============Total Price================ -->
+                                        <span> VND</span> 190,000D
+                                    </div>
+                                </div>
+                            </div>            
+                        </div>
+                        
+                        <div >
+                          <form method="POST" target="#" class="paymentForm">
+                            <h4 class="mb-3 mt-3">Thông tin giao hàng</h4>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" id="paymentFormName" placeholder="Họ và tên">
+                            </div>
+                            <div >
+                                <div class="row">
+                                    <div class="col-md-7 mb-3">
+                                        <input type="email" class="form-control" id="paymentFormEmail"  placeholder="Email">
+                                    </div>
+                                    <div class="col-md-5 mb-3">
+                                        <input type="text" class="form-control" id="paymentFormPhone" placeholder="Số điện thoại">
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="mb-3">
+                            <input type="text" class="form-control" id="paymentFormAddress" placeholder="Địa chỉ">
+                                
+                            </div>
+                            <div class="mb-3">
+                                <div class="row">
+                                    <div class="col-md mb-3">
+                                        <select class="form-control" id="paymentFormCity">
+                                            <option>Chọn tỉnh/thành</option>
+                                            <option>Chọn tỉnh/thành</option>
+                                          </select>
+                                    </div>
+                                    <div class="col-md mb-3">
+                                        <select class="form-control" id="paymentFormQuan">
+                                            <option>Chọn quận/huyện</option>
+                                            <option>Chọn tỉnh/thành</option>
+                                          </select>
+                                    </div>
+                                    <div class="col-md mb-3">
+                                        <select class="form-control" id="paymentFormPhuong">
+                                            <option>Chọn phường/xã</option>
+                                            <option>Chọn tỉnh/thành</option>
+                                          </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="paymentBtn">
+                                <div class="paymentBtn01">
+                                    <a href="#" ><i class="bi bi-chevron-left"></i> Giỏ hàng</a>
+                                </div>
+                                <div>
+                                    <input type="submit" value="Hoàn tất đơn hàng">
+                                </div>
+                            </div>
+                          </form>
+                          
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md paymentPC">
+                    <div >
+                                <div class="paymentItems">
+                                    <!-- ===================Items=============== -->
+                                    <div class="paymentItems01">
+                                        <img src="assets/img/cardFront02.png" class="img-fluid">
+                                    </div>
+                                    <div class="paymentItems02">
+                                        <p>Thẻ Cá Nhân Thông Minh Tapply - BLACK VER.</p>
+                                        <p class="paymentItems021">ONTHECARD 2.0 - BLACK VER. </p>
+                                    </div>
+                                    <div class="paymentItems03">
+                                        179,000₫
+                                    </div>
+                                </div>
+                                <div class="paymentItems">
+                                    <!-- ===================Items=============== -->
+                                    <div class="paymentItems01">
+                                        <img src="assets/img/cardFront02.png" class="img-fluid">
+                                    </div>
+                                    <div class="paymentItems02">
+                                        <p>Thẻ Cá Nhân Thông Minh Tapply - BLACK VER.</p>
+                                        <p class="paymentItems021">ONTHECARD 2.0 - BLACK VER. </p>
+                                    </div>
+                                    <div class="paymentItems03">
+                                        179,000₫
+                                    </div>
+                                </div>
+                                <div class="paymentItems04">
+                                    <div class="paymentItems041">
+                                        Tổng cộng
+                                    </div>
+                                    <div class="paymentItems042">
+                                        <!-- =============Total Price================ -->
+                                        <span> VND</span> 190,000D
+                                    </div>
+                                </div>
+                            </div>  
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    
+</body>
+</html>
